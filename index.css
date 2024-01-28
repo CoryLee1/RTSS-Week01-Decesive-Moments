@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(83, 83, 83); /* 设置背景颜色为黑色 */
+    overflow-x: hidden; /* 防止水平滚动 */
+  }
+  .frame {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  /*.frame .overlap-group-wrapper {
+    width: 1405px;
+    height: 898px;
+  }
+  
+  .frame .overlap-group {
+    position: relative;
+    width: 1403px;
+    height: 898px;
+  }*/
+  
+  .frame .image {
+    position: absolute;
+    width: 1403px;
+    height: 898px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    display: block;
+    opacity: 0;
+    filter: blur(10px);
+  }
+  
+  .frame .text-wrapper {
+    position: absolute;
+    width: 700px;
+    top: 264px;
+    left: 73px;
+    font-family: "Podkova-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 63px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .description-richard {
+    position: absolute;
+    width: 322px;
+    top: 398px;
+    left: 73px;
+    font-family: "Poly-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .detected-emotion-SAD {
+    position: absolute;
+    width: 477px;
+    top: 324px;
+    left: 73px;
+    font-family: "Podkova-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .span {
+    font-family: "Podkova-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+  }
+  
+  .frame .text-wrapper-2 {
+    font-size: 46px;
+  }
+  
+
+  
+  .frame .happy-sad {
+    position: absolute;
+    width: 114px;
+    top: 398px;
+    left: 1184px;
+    font-family: "Poly-Regular", Helvetica;
+    font-weight: 400;
+    color: #ff0000;
+    font-size: 19px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .div {
+    position: absolute;
+    width: 62px;
+    top: 41px;
+    left: 970px;
+    font-family: "Poly-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .frame .text-wrapper-3 {
+    position: absolute;
+    width: 70px;
+    top: 41px;
+    left: 1149px;
+    font-family: "Poly-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .frame .group {
+    position: absolute;
+    width: 533px;
+    height: 54px;
+    top: 30px;
+    left: 73px;
+  }
+  
+  .frame .decesive-moments {
+    position: absolute;
+    width: 468px;
+    top: 7px;
+    left: 63px;
+    font-family: "Podkova-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .text-wrapper-4 {
+    font-family: "Podkova-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 0;
+  }
+  
+  .frame .text-wrapper-5 {
+    font-size: 14px;
+  }
+  
+  .frame .eye {
+    position: absolute;
+    width: 45px;
+    height: 54px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  .frame .info-card {
+    display: none; /* 默认不显示 */
+    position: fixed; /* 固定位置 */
+    right: 0; /* 右侧对齐 */
+    top: 50%; /* 垂直居中 */
+    transform: translateY(-50%);
+    width: 600px;
+    height: 898px;
+    background-color: rgba(255, 255, 255, 0.75); /* 白色背景，75% 透明度 */
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px; /* 可选的圆角 */
+    z-index: 10;
+    /* 其他你想要的样式 */
+}
+
+  #container3D {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 0; /* Set this to 0 or a number less than other UI elements */
+  }
+  
+  #container3D canvas {
+    width: 100%;
+    height: 100%;
+    /* Remove !important unless absolutely necessary */
+  }
+  

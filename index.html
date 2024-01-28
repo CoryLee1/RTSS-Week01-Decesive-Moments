@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>   
+     <link rel="stylesheet" href="index.css" />
+   </head>
+  <body>
+    <div class="frame">
+      <div class="overlap-group-wrapper">
+        <div class="overlap-group">
+        
+          <div class="text-wrapper">Decesive Moments</div>
+          <p class="description-richard">
+            Description：<br /><br /> Don McCullin's "The Battle of the Bogside": 
+            This photo documents a riot in Belfast, Northern Ireland in 1969, expressing the peak of anger, conflict, and political tension.
+          </p>
+          <p class="detected-emotion-SAD">
+            <span class="span">Detected emotion：</span> <span class="text-wrapper-2">ANGRY</span>
+          </p>
+          <div class="rectangle"></div>
+          <div class="happy-sad">Happy：1111<br />Sad：vghvcfghvj<br />Fear：hghvv<br />Angry：xxxx</div>
+          <div class="div">HOME</div>
+          <div class="text-wrapper-3">ABOUT</div>
+          <div class="info-card" id="infoCard">
+            <p>Inspiration：</p>
+            <p>What makes decesive moments decesive? The live scenerio at that moment or the audience?</p>
+
+            <p>"To me, photography is the simultaneous recognition, in a fraction of a second, </p>
+            <p>of the significance of an event as well as of a precise organization of forms</p>
+            <p>which give that event its proper expression.”--Henri Cartier-Bresson</p>
+            
+          <p>I was obsessed to these kind of ambiguity between the photography and the audience.</p>
+            <p>Normally, people see the photography first and react to it.But what would happened </p>
+            <p>if we reversely let the audience's emotional expression decide what they will
+            look at?</p>
+            
+            <p>I want to combine old version of ml5's expression detection and three.js together, to see
+            what would happen if we reverse the process.</p>
+        </div>
+          <div class="group">
+            <p class="decesive-moments">
+              <span class="text-wrapper-4">Decesive Moments<br /></span>
+              <span class="text-wrapper-5">RealTime Social Spaces</span>
+            </p>
+            <img class="eye" src="img/eye-05.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      async
+      src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"
+    ></script>
+
+    
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+        }
+      }
+    </script>
+
+
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
