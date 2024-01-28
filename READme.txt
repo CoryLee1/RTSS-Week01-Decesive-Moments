@@ -13,3 +13,4 @@ look at?
 
 I want to combine old version of ml5's expression detection and three.js together, to see
 what would happen if we reverse the process.
+![示例图片](img/preview.png)
