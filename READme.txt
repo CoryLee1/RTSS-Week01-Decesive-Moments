@@ -12,5 +12,6 @@ if we reversely let the audience's emotional expression decide what they will
 look at?
 
 I want to combine old version of ml5's expression detection and three.js together, to see
-what would happen if we reverse the process.
-![示例图片](img/preview.png)
+what would happen if we reverse the process.(Haven't finished yet)
+
+see link: https://jazzy-tanuki-5aff1c.netlify.app/ 
